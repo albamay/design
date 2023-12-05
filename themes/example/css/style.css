@@ -42,12 +42,12 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 3em 3em 3em 3em;
 }
 
 @media (max-width: 767px) {
     .title, .logo {
-        padding: 1em 1em 1em 0;
+        padding: 1em 1em 1em 1em;
     }
     .title {
         min-width: 50%;
@@ -58,11 +58,12 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: cornflowerblue;
 }
 
 .title p {
     font-style: italic;
+    color: rgba(117, 159, 238, 0.858);
 }
 
 /* main */
@@ -77,11 +78,16 @@ body {
 p {
     margin-bottom: 1.4rem;
     margin-top: 1.4rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    color:  rgb(29, 50, 90);
 }
 
 h1 {
     margin: auto;
     margin-top: 5%;
+    margin-left: 1.4rem;
+    color:  rgb(29, 50, 90);
 }
 
 /* Footer */
@@ -96,6 +102,10 @@ h1 {
 
 .footer a {
     color: #fff;
+}
+
+.footer p {
+    color:#fff
 }
 
 .footer .social {
@@ -123,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+    padding: 3em 5em 3em 5em;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
